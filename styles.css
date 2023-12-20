@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Mono&family=Rubik+Doodle+Shadow&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto Mono;
+    color: black;
+    font-size: 1em;
+}
+
+html {
+    background-color: white;
+}
+
+html body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #57295b;
+    color: #edba20;
+    text-align: center;
+}
+
+.big_logo {
+    height: 10em;
+    width: auto;
+    margin: 10px;
+}
+
+.main_title {
+    font-size: 3em;
+    color: #edba20;
+    font-family: Rubik Doodle Shadow;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #edba20;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    text-align: center;
+    color: #57295b;
+    font-size: 1.5em;
+}
+
+li a:hover {
+    background-color: #57295b;
+    color: #edba20;
+}
+
+.active {
+    background-color: #c59c23;
+}
+
+#container {
+    margin: 30px;
+    text-align: center;
+}
+
+#container p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container img {
+    height: auto;
+    width: 500px;
+}
+
+.temp_photo {
+    padding: 70px;
+    border: 5px solid #57295b;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 500px;
+    background-color: #edba20;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #edba20;
+}
