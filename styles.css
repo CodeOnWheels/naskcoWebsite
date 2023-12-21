@@ -108,6 +108,10 @@ li a:hover {
     background-color: #edba20;
 }
 
+#index_table {
+    width: 35%;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
