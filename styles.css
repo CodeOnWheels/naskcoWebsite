@@ -3,8 +3,6 @@
 * {
     box-sizing: border-box;
     font-family: Roboto Mono;
-    color: black;
-    font-size: 1em;
 }
 
 html {
@@ -32,6 +30,18 @@ header {
     height: 10em;
     width: auto;
     margin: 10px;
+}
+
+.small_logo {
+    height: 2em;
+    width: auto;
+    margin: 10px;
+}
+
+footer .small_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main_title {
@@ -78,14 +88,14 @@ li a:hover {
 }
 
 #container p {
-    width: 50%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #container img {
     height: auto;
-    width: 500px;
+    width: 300px;
 }
 
 .temp_photo {
@@ -98,9 +108,71 @@ li a:hover {
     background-color: #edba20;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #57295b;
+    padding: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.grid-item {
+    background-color: #edba20;
+    border: 1px solid #c59c23;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.grid-item img {
+    height: auto;
+    max-width: 100%;
+}
+
 footer {
     margin-top: auto;
     text-align: center;
     padding: 20px;
-    background-color: #edba20;
+    background-color: #57295b;
+    color: #edba20;
+}
+
+.social_text {
+    color: #edba20;
+    margin: 10px;
+}
+
+.social_text:hover {
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    background: #57295b;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #b6552b;
+    color: white;
 }
